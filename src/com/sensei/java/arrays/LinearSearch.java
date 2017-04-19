@@ -1,7 +1,7 @@
 package com.sensei.java.arrays;
 
 //Accept a list of 10 nos. and search for a value in the list.
-//p\Print the position of the search element
+//Print the position of the search element
 
 import java.io.*;
 public class LinearSearch {
