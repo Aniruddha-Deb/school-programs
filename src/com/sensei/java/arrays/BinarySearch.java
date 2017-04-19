@@ -15,7 +15,7 @@ public class BinarySearch {
 		System.out.println("Enter the number to be searched : ");
 		int check = Integer.parseInt(br.readLine());
 		int l = 0;
-		int u = 4;
+		int u = 5;
 		int mid;
 		boolean flag = false;
 		do{
@@ -24,8 +24,8 @@ public class BinarySearch {
 			if( check == mid ){
 				
 				System.out.println("Search Element is " + check );
-				System.out.println("Element found at index " + mid);
-				System.out.println("Position of the element in the array is " + ( mid + 1 ));
+				System.out.println("Element found at index " + (mid - 1));
+				System.out.println("Position of the element in the array is " + mid );
 				flag = true;
 				break;
 				
