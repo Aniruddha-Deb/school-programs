@@ -16,11 +16,13 @@ public class LinearSearch {
 		int x = arr.length;
 		System.out.println("enter search element");
 		int a = Integer.parseInt(br.readLine());
-		int pos =0;
+		int pos = 0;
 		for( int i = 0; i <= (x-1); i++ ){
 			
-			if( arr[i] == a )
-				pos =i + 1;
+			if( arr[i] == a ) {
+				pos = i + 1;
+				break;
+			}
 		
 		}
 		
