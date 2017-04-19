@@ -15,7 +15,7 @@ public class BinarySearch {
 		System.out.println("Enter the number to be searched : ");
 		int check = Integer.parseInt(br.readLine());
 		int l = 0;
-		int u = 5;
+		int u = 4;
 		int mid;
 		boolean flag = false;
 		do{
