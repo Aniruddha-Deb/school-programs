@@ -2,7 +2,7 @@ package com.sensei.java.arrays;
 
 //Using binary search, print the position of a value in an arranged list of 5 integers.
 //Assume that the entered list is in ascending.
-import java .io.*;
+import java.io.*;
 public class BinarySearch {
 
 	public static void main(String[] args) throws IOException {
