@@ -1,4 +1,4 @@
-package com.ethan.java.constructors;
+ package com.ethan.java.constructors;
 
 public class Box {
 
@@ -13,7 +13,7 @@ public class Box {
 	}
 	
 	Box( double length, double width, double height){
-		this.length =length;
+		this.length = length;
 		this.width = width;
 		this.height= height;
 	}

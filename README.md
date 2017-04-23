@@ -1,3 +1,3 @@
 # School Programs
 
-programs done in school
+Set of programs done in school
