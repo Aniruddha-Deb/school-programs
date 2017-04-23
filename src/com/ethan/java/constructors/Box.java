@@ -23,5 +23,4 @@ public class Box {
 		double vol = dimensions.length * dimensions.height * dimensions.width;
 		System.out.println("Volume of Box = " + vol);
 	}
-
 }	
