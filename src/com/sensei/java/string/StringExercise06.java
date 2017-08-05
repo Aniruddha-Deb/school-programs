@@ -11,7 +11,7 @@ public class StringExercise06 {
 
 	public static void main( String[] args ) throws IOException {
 		BufferedReader br = new BufferedReader( new InputStreamReader( System.in ) );
-		
+		System.out.print( "enter a sentence" );
 		String x = br.readLine().trim().toUpperCase();
 		int len = x.length();
 		int y = 0;
