@@ -13,17 +13,17 @@ public class StringExercise09 {
 		BufferedReader br = new BufferedReader( new InputStreamReader ( System.in ) );
 		System.out.println( "Enter a character" );
 		char c = (char)br.read();
-		if ( Character.isLetter(c) == true ){
+		if ( Character.isLetter(c) ){
 			
-			if( Character.isUpperCase(c) == true )
+			if( Character.isUpperCase(c) )
 				System.out.println("It is an upper case letter");
 			
-			else if( Character.isLowerCase(c) == true )
+			else if( Character.isLowerCase(c) )
 				System.out.println("It is a lower case letter");
 			
 		}
 		
-		else if( Character.isDigit(c) == true )
+		else if( Character.isDigit(c) )
 			System.out.println("It is a digit");
 		
 		else
