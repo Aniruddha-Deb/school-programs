@@ -35,7 +35,6 @@ public class mobike {
 		phno = Integer.parseInt( br.readLine() );
 		name = br.readLine();
 		days = Integer.parseInt( br.readLine() );
-		charge = Integer.parseInt( br.readLine() );
 	}
 	
 	public void compute() {
