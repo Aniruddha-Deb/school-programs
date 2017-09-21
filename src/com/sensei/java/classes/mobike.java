@@ -43,7 +43,7 @@ public class mobike {
 			charge += 2500;
 			d -= 5;
 			if( d >= 5 ) {
-				charge += 1600;
+				charge += 2000;
 				d -= 5;
 				charge += (200*d);
 			}
