@@ -1,30 +1,32 @@
 package com.sensei.exampractice;
 
+import java.util.Scanner;
+
 public class Test {
 
-	/* ICSE 2012 */
-	
-	public static void polygon( int n, char ch ) {
-		for( int i=0; i<n; i++ ) {
-			for( int j=0; j<n; j++ ) {
-				System.out.print( ch );
-			}
-			System.out.println(  );
-		}
-	}
-	
-	public static void polygon( int x, int y ) {
-		for( int i=0; i<y; i++ ) {
-			for( int j=0; j<x; j++ ) {
-				System.out.print( '@' );
-			}
-			System.out.println(  );
-		}
-	}
-	
-	public static void main( String[] args ){
-		polygon( 5, 'a' );
-		polygon( 15, 25 );
-	}
-	
+    public static void main( String args[] ) {
+        Scanner sc = new Scanner( System.in );
+        System.out.println( "Enter a word " );
+        String s = sc.next();
+
+        char[] c = new char[s.length()];
+        for( int i=0; i<s.length(); i++ ) {
+            c[i] = s.charAt(i);
+        }
+
+        for( int i=0; i<c.length; i++ ) {
+            for( int j=0; j<c.length-1; j++ ) {
+                if( c[j] > c[j+1] ) {
+                    char temp = c[j];
+                    c[j] = c[j+1];
+                    c[j+1] = temp;
+                }
+            }
+        }
+
+        for( int i=0; i<c.length; i++ ) {
+            System.out.print( c[i] );
+        }
+
+    }
 }
